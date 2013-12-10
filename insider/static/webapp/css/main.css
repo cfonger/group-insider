@@ -1,0 +1,71 @@
+body {
+    background-color: GREY;
+}
+
+.insider-header {
+    background-color: #ffffff;
+    -moz-box-shadow: 0 3px 3px 0 rgba(0,0,0,.4); /* drop shadow */
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,.4); /* drop shadow */
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.4); /* drop shadow */
+    position: relative;
+    height:76px;
+
+    padding-top: 14px;
+}
+
+.main.container {
+    background-color: #ffffff;
+    -moz-box-shadow: 0 3px 3px 0 rgba(0,0,0,.75); /* drop shadow */
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,.75); /* drop shadow */
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.75); /* drop shadow */
+    min-height: 100%;
+}
+
+.logo {
+    width:138px;
+    height:45px;
+}
+
+.hero {
+    margin-top:50px;
+	margin-bottom:20px;
+}
+.hero img {
+    max-width: 460px;
+}
+.hero p {
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+@media (min-width: 992px) {
+    .hero-text {
+        padding-left:30px;
+    }
+}
+.btn.cta-btn {
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+#search-query-2, #search-query-5 {
+	height:53px;
+    width: 500px;
+}
+
+.lead {
+	margin-bottom: 5px;
+}
+
+.linkedin-img {
+    width: 80px;
+}
+
+.center-img-parent {
+    text-align: center;
+}
+
+.member-row,
+.heading-row,
+.connection-row {
+    margin-bottom: 20px;
+}

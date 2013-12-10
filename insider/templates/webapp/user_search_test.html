@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+    <div>
+        <form method="GET" action="{% url 'insider-webapp-views-usersearchtest' %}">
+            Search: <input type="text" name="query"> <input type="submit" value="Submit">
+        </form>
+    </div>
+    {% if results %}
+        <div>
+            {% for r in results %}
+                <div>
+                    <span>{{ r.first_name }}</span> <span>{{ r.last_name }}</span>, <span>{{ r.position_title }}</span>, <span>{{ r.position_company }}</span>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
+</html>
